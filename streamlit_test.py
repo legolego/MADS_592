@@ -10,11 +10,6 @@ st.altair_chart(c) # , width=-1
 
 st.sidebar.title("About")
 
-st.sidebar.info(
-
-    "This is a demo application written to help you understand Streamlit. The application identifies the animal in the picture. It was built using a Convolution Neural Network (CNN).")
-
-
 st.sidebar.title("Train Neural Network")
 if st.sidebar.button('Train CNN'):
 	print("Train NN")
@@ -25,7 +20,6 @@ if st.sidebar.button('Train CNN'):
 st.sidebar.title("Sidebar title")
 if st.sidebar.button('Im a button'):
     st.write("You pressed a button!.")
-
 
 st.sidebar.title("Predict New Images")
 
