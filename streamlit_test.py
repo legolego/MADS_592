@@ -12,10 +12,7 @@ st.sidebar.title("About")
 
 st.sidebar.title("Train Neural Network")
 if st.sidebar.button('Train CNN'):
-	print("Train NN")
-
-    "This still is a demo application written to help you understand Streamlit. The application identifies the animal in the picture. It was built using a Convolution Neural Network (CNN).")
-
+    print("Train NN")
 
 st.sidebar.title("Sidebar title")
 if st.sidebar.button('Im a button'):
