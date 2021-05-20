@@ -4,4 +4,6 @@ pandas==1.2.4
 streamlit==0.81.0
 dask==2021.4.0
 fastparquet==0.5.0
-
+dask[distributed]==2021.4.0
+statsmodels==0.12.2
+causalinference==0.1.3
